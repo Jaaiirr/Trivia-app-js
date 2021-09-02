@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <title>Trivia</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-text">Let's Play</h1>
+      <div class="card-container">
+        <form action="" id="trivia-form">
+          <div class="text-form">
+            <label class="style-text" for="amount">Numero de Preguntas</label>
+          </div>
+
+          <div class="select-form">
+            <input class="label-form" type="text" id="amount" value="10" />
+          </div>
+
+          <div class="input-form">
+            <input
+              class="action-btn"
+              type="submit"
+              value="Go!"
+              id="formButton"
+            />
+          </div>
+        </form>
+
+        <div class="score">
+          <p>Score:</p>
+          <h2 id="score">0</h2>
+        </div>
+      </div>
+      <!-- Crear con JS -->
+      <div class="questions-api">
+        <div class="question-main">
+          <p class="style-text size-q" id="question-trivia">¿Question?</p>
+        </div>
+        <div class="container-question">
+          <div class="section-question1">
+            <p class="label-form-input" data-number="1" id="answer1">Java</p>
+            <p class="label-form-input" data-number="2" id="answer2">Python</p>
+          </div>
+
+          <div class="section-question2">
+            <p class="label-form-input" data-number="3">C</p>
+            <p class="label-form-input" data-number="4">Jakarta</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

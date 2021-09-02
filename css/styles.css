@@ -1,0 +1,176 @@
+.container {
+  /*Div padre*/
+  background: rgb(11, 13, 12);
+  background: linear-gradient(
+    71deg,
+    rgba(11, 13, 12, 1) 0%,
+    rgba(35, 62, 53, 1) 98%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+  font-family: "Indie Flower", cursive;
+  /*Arriba-Horizontal-Abajo*/
+  margin: 10px auto 20px;
+}
+.style-text {
+  font-size: 20px;
+  color: white;
+  /* text-align: center; */
+  font-family: "Indie Flower", cursive;
+}
+
+.card-container {
+  /* background: tomato; */
+  text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  /* width: 15%;
+
+  margin: 12px;
+  border-radius: 10px;
+  padding: 10px; */
+}
+
+.action-form {
+  text-align: center;
+}
+.questions-api {
+  /* background: tomato; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+.question-main {
+  padding: 12px;
+}
+
+.text-form {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  margin: 0 auto;
+}
+.label-form,
+.choice {
+  text-align-last: center;
+  display: inline-block;
+  width: 90%;
+  cursor: pointer;
+  height: 30px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #f0f0f0;
+  color: black;
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+.label-form-input {
+  text-align-last: center;
+  display: inline-block;
+  width: 90%;
+  cursor: pointer;
+  height: 30px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #f0f0f0;
+  color: black;
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+.score {
+  font-size: 20px;
+  color: white;
+  font-family: "Indie Flower", cursive;
+}
+.input-form {
+  padding: 20px;
+}
+.size-q {
+  font-size: 40px;
+  margin: 10px;
+}
+.size-a {
+  font-size: 25px;
+}
+.container-question {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  /* margin: 20px auto 10px; */
+  height: auto;
+}
+.section-question1,
+.section-question2 {
+  text-align: center;
+  padding: 20px;
+}
+input {
+  margin-bottom: 15px;
+}
+/* .correct {
+  background: green;
+}
+.incorrect {
+  background: red;
+} */
+/*Exit Sesion*/
+
+.card {
+  /* background-color: rebeccapurple; */
+  height: 50%;
+  text-align: center;
+}
+.text-section-exit {
+  text-align: center;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 60px;
+}
+.input-exit {
+  text-align-last: center;
+  display: inline-block;
+  width: 20%;
+  cursor: pointer;
+  height: 40px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #f0f0f0;
+  color: black;
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
+}
